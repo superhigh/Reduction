@@ -1,0 +1,6 @@
+[info] ParallelCountChangeSuite:
+[info] - countChange should return 0 for money < 0
+[info] - countChange should return 1 when money == 0
+[info] - countChange should return 0 for money > 0 and coins = List()
+[info] - countChange should work when there is only one coin
+[info] - countChange should work for multi-coins
