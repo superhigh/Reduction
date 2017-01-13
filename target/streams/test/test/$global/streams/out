@@ -1,7 +1,7 @@
-[debug] Running TaskDef(reductions.ParallelCountChangeSuite, org.scalatest.tools.Framework$$anon$1@40e2fd6c, false, [SuiteSelector])
-[debug] Running TaskDef(reductions.ParallelParenthesesBalancingSuite, org.scalatest.tools.Framework$$anon$1@40e2fd6c, false, [SuiteSelector])
-[debug] Running TaskDef(reductions.LineOfSightSuite, org.scalatest.tools.Framework$$anon$1@40e2fd6c, false, [SuiteSelector])
-[info] Run completed in 1 second, 467 milliseconds.
+[debug] Running TaskDef(reductions.LineOfSightSuite, org.scalatest.tools.Framework$$anon$1@54779183, false, [SuiteSelector])
+[debug] Running TaskDef(reductions.ParallelCountChangeSuite, org.scalatest.tools.Framework$$anon$1@54779183, false, [SuiteSelector])
+[debug] Running TaskDef(reductions.ParallelParenthesesBalancingSuite, org.scalatest.tools.Framework$$anon$1@54779183, false, [SuiteSelector])
+[info] Run completed in 330 milliseconds.
 [info] Total number of tests run: 11
 [info] Suites: completed 3, aborted 0
 [info] Tests: succeeded 5, failed 6, canceled 0, ignored 0, pending 0

@@ -1,83 +1,15 @@
 [debug] 
 [debug] Initial source changes: 
 [debug] 	removed:Set()
-[debug] 	added: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala)
+[debug] 	added: Set()
 [debug] 	modified: Set()
 [debug] Removed products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala)
+[debug] Initial directly invalidated sources: Set()
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated sources: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala, /home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala)
-[debug] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources
-[info] Compiling 4 Scala sources to /home/hhur/soft/scala-project/reductions/target/scala-2.11/classes...
-[debug] Getting compiler-interface from component compiler for Scala 2.11.7
-[debug] Plain interface to Scala compiler 2.11.7  with arguments: 
-[debug] 	-nowarn
-[debug] 	-d
-[debug] 	/tmp/sbt_784d4f5a
-[debug] 	-bootclasspath
-[debug] 	/opt/jdk1.8.0_101/jre/lib/resources.jar:/opt/jdk1.8.0_101/jre/lib/rt.jar:/opt/jdk1.8.0_101/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_101/jre/lib/jsse.jar:/opt/jdk1.8.0_101/jre/lib/jce.jar:/opt/jdk1.8.0_101/jre/lib/charsets.jar:/opt/jdk1.8.0_101/jre/lib/jfr.jar:/opt/jdk1.8.0_101/jre/classes:/home/hhur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-[debug] 	-classpath
-[debug] 	/home/hhur/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/xsbti/interface-0.13.8.jar:/home/hhur/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-interface-src/compiler-interface-src-0.13.8.jar:/home/hhur/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar:/home/hhur/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/hhur/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/home/hhur/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/hhur/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar
-[debug] 	/tmp/sbt_c3fd934f/xsbt/API.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/Analyzer.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/Command.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/Compat.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/CompilerInterface.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/ConsoleInterface.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/DelegatingReporter.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/Dependency.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/ExtractAPI.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/ExtractUsedNames.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/LocateClassFile.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/Log.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/Message.scala
-[debug] 	/tmp/sbt_c3fd934f/xsbt/ScaladocInterface.scala
-[debug] Getting compiler-interface from component compiler for Scala 2.11.7
-[debug] Running cached compiler 7810fb30, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-[debug] Calling Scala compiler with arguments  (CompilerInterface):
-[debug] 	-deprecation
-[debug] 	-bootclasspath
-[debug] 	/opt/jdk1.8.0_101/jre/lib/resources.jar:/opt/jdk1.8.0_101/jre/lib/rt.jar:/opt/jdk1.8.0_101/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_101/jre/lib/jsse.jar:/opt/jdk1.8.0_101/jre/lib/jce.jar:/opt/jdk1.8.0_101/jre/lib/charsets.jar:/opt/jdk1.8.0_101/jre/lib/jfr.jar:/opt/jdk1.8.0_101/jre/classes:/home/hhur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-[debug] 	-classpath
-[debug] 	/home/hhur/soft/scala-project/reductions/target/scala-2.11/classes:/home/hhur/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/home/hhur/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/hhur/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/hhur/.ivy2/cache/com.storm-enroute/scalameter-core_2.11/jars/scalameter-core_2.11-0.6.jar:/home/hhur/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar:/home/hhur/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/hhur/.ivy2/cache/com.github.scala-blitz/scala-blitz_2.11/jars/scala-blitz_2.11-1.1.jar:/home/hhur/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/bundles/scala-swing_2.11-1.0.1.jar
-[debug] Scala compilation took 18.934605292 s
-[debug] Invalidating /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala...
-[debug] Invalidating (transitively) by inheritance from /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala...
-[debug] Initial set of included nodes: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala)
-[debug] Invalidated by transitive inheritance dependency: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala)
-[debug] The /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelCountChange.scala source file has the following regular definitions changed:
-[debug] 	notify, Threshold, wait, ParallelCountChangeRunner, $asInstanceOf, equals, combinedThreshold, moneyThreshold, asInstanceOf, synchronized, parResult, $isInstanceOf, ParallelCountChange, main, notifyAll, isInstanceOf, ==, clone, toString, standardConfig, !=, getClass, seqResult, countChange, ne, totalCoinsThreshold, parCountChange, eq, ##, finalize, hashCode.
-[debug] All member reference dependencies will be considered within this context.
-[debug] Invalidating /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala...
-[debug] Invalidating (transitively) by inheritance from /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala...
-[debug] Initial set of included nodes: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala)
-[debug] Invalidated by transitive inheritance dependency: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala)
-[debug] The /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/LineOfSight.scala source file has the following regular definitions changed:
-[debug] 	notify, unapply, curried, upsweep, wait, copy$default$2, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, left, Tree, $isInstanceOf, Node, LineOfSightRunner, tupled, upsweepSequential, lineOfSight, canEqual, main, Leaf, productPrefix, until, notifyAll, readResolve, isInstanceOf, downsweepSequential, downsweep, <init>, max, parLineOfSight, apply, ==, clone, from, copy$default$3, copy, toString, standardConfig, !=, LineOfSight, getClass, copy$default$1, ne, eq, productIterator, right, ##, finalize, productElement, hashCode, maxPrevious.
-[debug] All member reference dependencies will be considered within this context.
-[debug] Invalidating /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala...
-[debug] Invalidating (transitively) by inheritance from /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala...
-[debug] Initial set of included nodes: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala)
-[debug] Invalidated by transitive inheritance dependency: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala)
-[debug] The /home/hhur/soft/scala-project/reductions/src/main/scala/reductions/ParallelParenthesesBalancing.scala source file has the following regular definitions changed:
-[debug] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, parResult, $isInstanceOf, parBalance, balance, main, notifyAll, isInstanceOf, ==, clone, ParallelParenthesesBalancingRunner, toString, standardConfig, !=, getClass, seqResult, ne, eq, ##, finalize, hashCode, ParallelParenthesesBalancing.
-[debug] All member reference dependencies will be considered within this context.
-[debug] Invalidating /home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala...
-[debug] Invalidating (transitively) by inheritance from /home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala...
-[debug] Initial set of included nodes: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala)
-[debug] Invalidated by transitive inheritance dependency: Set(/home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala)
-[debug] The /home/hhur/soft/scala-project/reductions/src/main/scala/common/package.scala source file has the following regular definitions changed:
-[debug] 	notify, package, wait, task, $asInstanceOf, DefaultTaskScheduler, equals, asInstanceOf, synchronized, $isInstanceOf, forkJoinPool, notifyAll, isInstanceOf, <init>, scheduler, ==, TaskScheduler, clone, schedule, toString, !=, getClass, ne, eq, parallel, ##, finalize, hashCode.
-[debug] All member reference dependencies will be considered within this context.
-[debug] New invalidations:
-[debug] 	Set()
-[debug] Initial set of included nodes: Set()
-[debug] Previously invalidated, but (transitively) depend on new invalidations:
-[debug] 	Set()
-[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+[debug] All initially invalidated sources: Set()
